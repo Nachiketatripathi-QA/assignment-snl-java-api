@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/nachiketatripathi/.m2/repository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar;C:/Users/nachiketatripathi/.m2/repository/org/json/json/20160810/json-20160810.jar;C:/Users/nachiketatripathi/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/nachiketatripathi/workspace/assignment-snl-java-api-master/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2017. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/nachiketatripathi/workspace/assignment-snl-java-api-master/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'snl-java-api 1.0.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' 'C:/Users/nachiketatripathi/workspace/assignment-snl-java-api-master/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'snl-java-api 1.0.0-SNAPSHOT API'

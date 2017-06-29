@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.688 sec <<< FAILURE!
+adding_new_player_should_throw_MaxPlayersReachedExeption(TestBoard)  Time elapsed: 0.019 sec  <<< FAILURE!
+com.qainfotech.tap.training.snl.api.MaxPlayersReachedExeption: The board already has maximum allowed Player: 4
+	at com.qainfotech.tap.training.snl.api.Board.registerPlayer(Board.java:71)
+	at TestBoard.adding_new_player_should_throw_MaxPlayersReachedExeption(TestBoard.java:53)
+
+adding_new_player_should_throw_a_PlayerExistsExcetion(TestBoard)  Time elapsed: 0.002 sec  <<< FAILURE!
+com.qainfotech.tap.training.snl.api.MaxPlayersReachedExeption: The board already has maximum allowed Player: 4
+	at com.qainfotech.tap.training.snl.api.Board.registerPlayer(Board.java:71)
+	at TestBoard.adding_new_player_should_throw_a_PlayerExistsExcetion(TestBoard.java:43)
+
+deleting_the_player_throws_NoUserWithSuchUUIDException(TestBoard)  Time elapsed: 0.001 sec  <<< FAILURE!
+com.qainfotech.tap.training.snl.api.NoUserWithSuchUUIDException: No Player with uuid 'f55e00e6-1737-4a8a-a51c-57a05a9a5cc1' on board
+	at com.qainfotech.tap.training.snl.api.Board.deletePlayer(Board.java:116)
+	at TestBoard.deleting_the_player_throws_NoUserWithSuchUUIDException(TestBoard.java:69)
+
