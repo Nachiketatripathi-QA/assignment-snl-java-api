@@ -69,13 +69,5 @@ public class TestBoard {
 		board.deletePlayer(uuid);
 		
 	}
-		
-	
-	
-	
-	
-	
-	
-	
 	
 }
