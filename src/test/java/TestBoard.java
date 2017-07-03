@@ -114,13 +114,13 @@ public class TestBoard {
 		
 		
 		for (int index = 0; index < 3; index++) {
-			board.deletePlayer((UUID) ((JSONObject) board.getData().getJSONArray("players").get(0)).get("uuid"));
+			board.deletePlayer((UUID) ((JSONObject) board.getData().getJSONArray("players").get(index)).get("uuid"));
 			
-			((JSONObject) board.getData().getJSONArray("players").get(0)).put("position", 0);
-			UUID uuid = (UUID) ((JSONObject) board.getData().getJSONArray("players").get(0)).get("uuid");
-			Object current_position = ((JSONObject) board.getData().getJSONArray("players").get(0)).get("position");
+			((JSONObject) board.getData().getJSONArray("players").get(index)).put("position", 0);
+			UUID uuid = (UUID) ((JSONObject) board.getData().getJSONArray("players").get(index)).get("uuid");
+			Object current_position = ((JSONObject) board.getData().getJSONArray("players").get(index)).get("position");
 			JSONObject obj = board.rollDice(uuid);
-			Object new_position = ((JSONObject) board.getData().getJSONArray("players").get(0)).get("position");
+			Object new_position = ((JSONObject) board.getData().getJSONArray("players").get(index)).get("position");
 			Object dice = obj.get("dice");
 			Object message = obj.get("message");
 			int number = (int) current_position + (int) dice;
